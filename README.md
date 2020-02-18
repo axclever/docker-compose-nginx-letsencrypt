@@ -15,3 +15,4 @@ nginx/
   init-letsencrypt.sh
 ```
 
+4. Change dummy `domain.com` to your domain which already configured to server. Files which require this changes is `data/nginx.conf` and `init-letsencrypt.sh`. As well change inside `init-letsencrypt.sh`email to yours.
